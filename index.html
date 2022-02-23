@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Subscribe Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!--Titulo-->
+            <div class="title">
+                <h1>Try it now</h1>
+                <h2>Free trial, no obligation</h2>
+            </div>
+            <!--Formulário de cadastro-->
+            <div class="form">
+                <form method="post">
+                    <!--Email-->
+                    <div class="email-input">
+                        <label for="f-email">
+                            Work Email Adress
+                        </label>
+                        <input type="email" id="f-email" name="f-email" placeholder="Enter your work email address" required>
+                    </div>
+                    <!--Checkbox-->
+                    <div class="checkbox-container">
+                        <!--Checkbox terms-->
+                        <div class="checkbox">
+                            <input type="checkbox" id="f-check" name="f-terms" required>
+                            <label for="f-terms">I Agree to the <a href="">Terms and Conditions.</a></label>
+                        </div>
+                        <!--Checkbox newsletter-->
+                        <div class="checkbox">
+                            <input type="checkbox" id="f-check" name="f-newsletter">
+                            <label for="f-newsletter">Subscribe to our newsletter.</label>
+                        </div>
+                        <!--Checkbox onboarding-email-->
+                        <div class="checkbox">
+                            <input type="checkbox" id="f-check" name="f-onboarding-email">
+                            <label for="f-onboarding-email">Subscribe to our trial onboarding emails</label>
+                        </div>
+                    </div>
+                    <!--Botão Submit-->
+                    <div class="submit-input">
+                        <input type="submit" value="Download Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
